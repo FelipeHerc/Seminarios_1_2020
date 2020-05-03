@@ -1,0 +1,44 @@
+body {
+    background-color: #2A2D3E;
+    font-family: "Ubuntu";
+}
+
+.nome {
+    font-family: "Ubuntu-Bold";
+    color: #08F0F0;
+    font-size: 44px;
+    margin: 10px;
+}
+
+.gostos {
+    margin: 10px;
+    color: #FF1B5A;
+    font-size: 22px;
+}
+
+.lista {
+    color: #50FA7B;
+}
+
+.divisor {
+    color: #08F0F0;
+}
+
+.periodo {
+    color: #FF1B5A;
+    font-size: 22px;
+}
+
+.linkpuc {
+    color: #50FA7B;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-Light.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-Bold";
+    src: url("../fonts/Ubuntu-Bold.ttf");
+}
