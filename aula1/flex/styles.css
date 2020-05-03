@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    background-color: #2A2D3E;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Ubuntu-Bold";
+}
+
+.azul {
+    display: flex;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: #00F1F6;
+    align-items: center;
+    justify-content: center;
+}
+
+.verde {
+    display: flex;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: #45FC75;
+    align-items: center;
+    justify-content: center;
+}
+
+.rosa {
+    display: flex;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: #FF1057;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "Ubuntu-Bold";
+    src: url("../fonts/Ubuntu-Bold.ttf");
+}
