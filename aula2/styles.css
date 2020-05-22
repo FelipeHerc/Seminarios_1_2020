@@ -1,0 +1,44 @@
+body {
+    background-color: #2A2D3E;
+    font-family: "Ubuntu";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.borda {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00F1F6;
+}
+
+.fundo {
+    background-color: tomato;
+}
+
+.botao {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s; 
+}
+
+.botao:hover{
+    opacity: 1;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-Light.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-Bold";
+    src: url("../fonts/Ubuntu-Bold.ttf");
+}
