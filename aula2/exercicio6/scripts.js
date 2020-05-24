@@ -1,4 +1,4 @@
-$(document).ready(async function () {
+$(document).ready(function () {
     $("#botaoMenos").click(function () {
         var font_size = $("#texto").css("font-size");
 
